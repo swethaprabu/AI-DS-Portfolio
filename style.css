@@ -1,0 +1,591 @@
+/* =========================================
+   GLOBAL STYLES
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0a0a0f;
+    color: #f5f5f5;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   COMMON PAGE HEADER
+========================================= */
+
+.page-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px 40px;
+}
+
+.page-header h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.page-header p {
+    color: #a5a5b0;
+    max-width: 650px;
+    font-size: 17px;
+}
+
+.back-link {
+    display: inline-block;
+    color: #8b7cff;
+    text-decoration: none;
+    margin-bottom: 35px;
+    transition: 0.3s;
+}
+
+.back-link:hover {
+    color: #ffffff;
+}
+
+
+/* =========================================
+   HOME
+========================================= */
+.top-navigation {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 40px 30px;
+    min-height: 50px;
+}
+
+.top-navigation h1 {
+    text-align: center;
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.header {     max-width: 1200px; 
+        margin: auto;  
+        padding: 30px 40px;  
+        text-align: center; } 
+
+.header h1 {
+    font-size: 48px;
+    margin: 10px; }
+
+.nav-links {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.linkedin-link {     color: #ffffff;   
+      text-decoration: none;    
+       border: 1px solid #33333d;     
+       padding: 10px 18px;    
+        border-radius: 25px;    
+         transition: 0.3s; } 
+
+.linkedin-link:hover {     background: #8b7cff;    
+     border-color: #8b7cff; } 
+
+.hero {     min-height: 75vh; 
+        max-width: 1200px;   
+          margin: auto;  
+             padding: 50px 40px;  
+                display: grid; 
+                    grid-template-columns: 40% 60%;   
+                      align-items: center;    
+                       gap: 60px; } 
+
+.nav-links a {     color: #a5a5b0;   
+      text-decoration: none; 
+          font-size: 15px;   
+            font-family: "Poppins", sans-serif;    
+             font-weight: 500;    
+              transition: 0.3s; }.
+
+
+
+/* Profile */
+
+.profile-section {
+    text-align: center;
+}
+
+.profile-image {
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #33333d;
+    box-shadow: 0 0 50px rgba(139, 124, 255, 0.15);
+}
+
+.profile-section h1 {
+    margin-top: 20px;
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+
+
+/* Introduction */
+
+.intro-section {
+    font-family: "Poppins", sans-serif;
+}
+
+.intro-section .hello {
+    color: #8b7cff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.intro-section h2 {
+    font-size: 55px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.intro-section h3 {
+    color: #c7c7d0;
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.intro-section p {
+    color: #a5a5b0;
+    font-size: 17px;
+    margin-bottom: 18px;
+    max-width: 650px;
+    text-align: justify;
+}
+
+.intro-section strong {
+    color: #ffffff;
+}
+
+
+/* =========================================
+   PROJECTS
+========================================= */
+/* =========================================
+   PROJECTS PAGE HEADER
+========================================= */
+
+.page-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 40px 30px;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 48px;
+    margin-bottom: 0 auto;
+    text-align: center;
+}
+
+.page-header p {
+    color: #a5a5b0;
+    font-size: 17px;
+    margin-left: 350 auto;
+    text-align: center;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 40px 80px;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items: center;
+    gap: 60px;
+    padding: 70px 0;
+    border-bottom: 1px solid #24242c;
+}
+
+.project-image img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 1px solid #30303a;
+    transition: 0.4s;
+}
+
+.project-image img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 40px rgba(139, 124, 255, 0.15);
+}
+
+.project-number {
+    color: #8b7cff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.project-info h2 {
+    font-size: 34px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.project-info p {
+    color: #a5a5b0;
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.project-info strong {
+    color: #ffffff;
+}
+
+
+/* =========================================
+   SKILLS
+========================================= */
+
+.skills-section,
+.certifications-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.section-label {
+    color: #8b7cff;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.skills-section h2,
+.certifications-section h2 {
+    font-size: 34px;
+    margin-bottom: 35px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skill-card {
+    background: #111118;
+    border: 1px solid #292933;
+    border-radius: 16px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: #8b7cff;
+}
+
+.skill-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    color: #9999a5;
+}
+
+
+/* Certifications */
+
+.certifications-section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.certificate-card {
+    background: #111118;
+    border: 1px solid #292933;
+    border-radius: 16px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.certificate-card:hover {
+    transform: translateY(-5px);
+    border-color: #8b7cff;
+}
+
+.certificate-number {
+    color: #8b7cff;
+    margin-bottom: 15px;
+}
+
+.certificate-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.certificate-card p {
+    color: #9999a5;
+    margin-bottom: 15px;
+}
+
+.certificate-link {
+    color: #8b7cff;
+    text-decoration: none;
+}
+
+.certificate-link:hover {
+    color: #ffffff;
+}
+
+
+/* =========================================
+   EVENTS
+========================================= */
+
+.event-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 40px 100px;
+}
+
+.event-card {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 60px;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.event-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 1px solid #30303a;
+}
+
+.event-number,
+.event-label {
+    color: #8b7cff;
+}
+
+.event-number {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.event-label {
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.event-content h2 {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.event-content p {
+    color: #a5a5b0;
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.event-content strong {
+    color: #ffffff;
+}
+
+
+/* =========================================
+   EXPERIENCE
+========================================= */
+
+.experience-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 40px 100px;
+}
+
+.experience-card {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 60px;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.experience-image img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 1px solid #30303a;
+}
+
+.experience-number,
+.experience-label {
+    color: #8b7cff;
+}
+
+.experience-number {
+    letter-spacing: 2px;
+}
+
+.experience-label {
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.experience-content h2 {
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.experience-content h3 {
+    color: #c7c7d0;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.experience-duration {
+    color: #8b7cff !important;
+}
+
+.experience-content p {
+    color: #a5a5b0;
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.experience-content strong {
+    color: #ffffff;
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .page-header {
+        padding: 40px 25px 25px;
+    }
+
+    .page-header h1 {
+        font-size: 36px;
+    }
+
+    header {
+        padding: 25px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 40px 25px;
+        gap: 45px;
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 250px;
+        height: 320px;
+    }
+
+    .intro-section h2 {
+        font-size: 40px;
+    }
+
+    .intro-section h3 {
+        font-size: 20px;
+    }
+
+    .intro-section p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projects-container,
+    .event-container,
+    .experience-container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .project,
+    .event-card,
+    .experience-card {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 50px 0;
+    }
+
+    .project-image img,
+    .event-image img,
+    .experience-image img {
+        height: 300px;
+    }
+
+    .project-info h2,
+    .event-content h2,
+    .experience-content h2 {
+        font-size: 30px;
+    }
+
+    .skills-section,
+    .certifications-section {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+body.page-loaded {
+    opacity: 1;
+}
+
+.nav-links a.active {
+    color: #8b7cff;
+}
